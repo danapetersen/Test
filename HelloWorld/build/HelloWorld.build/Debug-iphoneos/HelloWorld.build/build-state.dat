@@ -1,0 +1,324 @@
+THelloWorld
+v7
+r0
+t270645041.389496
+cCheck dependencies
+cCpResource build/Debug-iphoneos/HelloWorld.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+cProcessInfoPlistFile /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/Info.plist HelloWorld-Info.plist
+cCompileXIB /Users/aa/Documents/HelloWorld/MainWindow.xib
+cCompileXIB /Users/aa/Documents/HelloWorld/HelloWorldViewController.xib
+cProcessPCH /var/folders/BX/BXpaGbanG1ilpXPEy-wGRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld_Prefix-exjrjodeidabaxfktztsigplomvd/HelloWorld_Prefix.pch.gch HelloWorld_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/main.o /Users/aa/Documents/HelloWorld/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/HelloWorldAppDelegate.o /Users/aa/Documents/HelloWorld/Classes/HelloWorldAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/HelloWorldViewController.o /Users/aa/Documents/HelloWorld/Classes/HelloWorldViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/HelloWorld normal armv6
+cGenerateDSYMFile /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app.dSYM /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/HelloWorld
+cProcessingProductPackaging "/Users/aa/Library/MobileDevice/Provisioning Profiles/F4977485-55DF-43C9-88E2-364C4D834EC0.mobileprovision" /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/embedded.mobileprovision
+cTouch /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app
+cProcessingProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist /Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent
+cCodeSign /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk
+c000000004A1650CC0000000000000110
+t1242976460
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist
+c000000004A0BA04000000000000000DD
+t1242275904
+s221
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+c000000004A0BA04000000000000001E5
+t1242275904
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004A121EB900000000003D72A0
+t1242701497
+s4027040
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004A121FF90000000000396540
+t1242701817
+s3761472
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004A0BAECB0000000000001355
+t1242279627
+s4949
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004A0CBEBD000000000000075E
+t1242349245
+s1886
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004A1221FD00000000019A6110
+t1242702333
+s26894608
+
+N/Users/aa/Documents/HelloWorld/Classes/HelloWorldAppDelegate.h
+c000000004A6F2C9D00000000000001F6
+t1248799901
+s502
+i<UIKit/UIKit.h>
+
+N/Users/aa/Documents/HelloWorld/Classes/HelloWorldAppDelegate.m
+c000000004A6F2C9D000000000000027E
+t1248799901
+s638
+i"HelloWorldAppDelegate.h"
+i"HelloWorldViewController.h"
+
+N/Users/aa/Documents/HelloWorld/Classes/HelloWorldViewController.h
+c000000004A717E63000000000000017D
+t1248951907
+s381
+i<UIKit/UIKit.h>
+
+N/Users/aa/Documents/HelloWorld/Classes/HelloWorldViewController.m
+c000000004A717EA600000000000002A5
+t1248951974
+s677
+i"HelloWorldViewController.h"
+
+N/Users/aa/Documents/HelloWorld/HelloWorldViewController.xib
+c000000004A6F2C9D00000000000018AE
+t1248799901
+s6318
+
+N/Users/aa/Documents/HelloWorld/HelloWorld_Prefix.pch
+c000000004A6F2C9D00000000000000BD
+t1248799901
+s189
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/aa/Documents/HelloWorld/MainWindow.xib
+c000000004A6F2C9D0000000000002436
+t1248799901
+s9270
+
+N/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app
+t1248952241
+s374
+
+N/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app.dSYM
+t1248952241
+s102
+
+N/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/HelloWorld
+t1248952240
+s16428
+
+N/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/HelloWorldViewController.nib
+t1248800478
+s1151
+
+N/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/Info.plist
+t1248952240
+s636
+
+N/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/MainWindow.nib
+t1248800478
+s1501
+
+N/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/PkgInfo
+t1248952240
+s8
+
+N/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/ResourceRules.plist
+t1248800478
+s485
+
+N/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/embedded.mobileprovision
+t1248800480
+s7182
+
+N/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent
+t1248952241
+s321
+
+N/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/HelloWorld.LinkFileList
+c000000004A6F2EDE000000000000017B
+t1248800478
+s379
+
+N/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/HelloWorldAppDelegate.o
+t1248952240
+s40304
+
+N/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/HelloWorldViewController.o
+t1248952240
+s31804
+
+N/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/main.o
+t1248800480
+s6528
+
+N/Users/aa/Documents/HelloWorld/main.m
+c000000004A6F2C9D0000000000000171
+t1248799901
+s369
+i<UIKit/UIKit.h>
+
+N/Users/aa/Library/MobileDevice/Provisioning Profiles/F4977485-55DF-43C9-88E2-364C4D834EC0.mobileprovision
+c000000004A6F2C920000000000001C0E
+t1248799890
+s7182
+
+N/var/folders/BX/BXpaGbanG1ilpXPEy-wGRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld_Prefix-exjrjodeidabaxfktztsigplomvd/HelloWorld_Prefix.pch.gch
+t1248800479
+s7831680
+
+NHelloWorld-Info.plist
+c000000004A702EB4000000000000038B
+t1248865972
+s907
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies270645040#270645040#0(0"0(0#1#0"4301066776#0"0#
+
+CCodeSign /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app
+s270645041.084832
+e270645041.389439
+r1
+xCodeSign
+x/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app
+lSLF07#2@44"CodeSign build/Debug-iphoneos/HelloWorld.app270645041#270645041#0(0"0(0#0#66"/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app4301066776#618"    cd /Users/aa/Documents/HelloWorld    setenv CODESIGN_ALLOCATE /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign -f -s "iPhone Developer: Alasdair Allan" --resource-rules=/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/ResourceRules.plist --entitlements /Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app0#
+
+CCompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/HelloWorldAppDelegate.o /Users/aa/Documents/HelloWorld/Classes/HelloWorldAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s270645040.719254
+e270645040.809175
+r1
+xCompileC
+xbuild/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/HelloWorldAppDelegate.o
+x/Users/aa/Documents/HelloWorld/Classes/HelloWorldAppDelegate.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/aa/Documents/HelloWorld/Classes/HelloWorldAppDelegate.m270645040#270645040#0(0"0(0#0#62"/Users/aa/Documents/HelloWorld/Classes/HelloWorldAppDelegate.m4301066776#1751"    cd /Users/aa/Documents/HelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -F/Users/aa/Documents/HelloWorld/build/Debug-iphoneos -I/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/include -I/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources/armv6 -I/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources -include /var/folders/BX/BXpaGbanG1ilpXPEy-wGRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld_Prefix-exjrjodeidabaxfktztsigplomvd/HelloWorld_Prefix.pch -c /Users/aa/Documents/HelloWorld/Classes/HelloWorldAppDelegate.m -o /Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/HelloWorldAppDelegate.o0#
+
+CCompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/HelloWorldViewController.o /Users/aa/Documents/HelloWorld/Classes/HelloWorldViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s270645040.720609
+e270645040.839476
+r1
+xCompileC
+xbuild/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/HelloWorldViewController.o
+x/Users/aa/Documents/HelloWorld/Classes/HelloWorldViewController.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/aa/Documents/HelloWorld/Classes/HelloWorldViewController.m270645040#270645040#0(0"0(0#0#65"/Users/aa/Documents/HelloWorld/Classes/HelloWorldViewController.m4301066776#1757"    cd /Users/aa/Documents/HelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -F/Users/aa/Documents/HelloWorld/build/Debug-iphoneos -I/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/include -I/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources/armv6 -I/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources -include /var/folders/BX/BXpaGbanG1ilpXPEy-wGRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld_Prefix-exjrjodeidabaxfktztsigplomvd/HelloWorld_Prefix.pch -c /Users/aa/Documents/HelloWorld/Classes/HelloWorldViewController.m -o /Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/HelloWorldViewController.o0#
+
+CCompileC build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/main.o /Users/aa/Documents/HelloWorld/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
+s270493279.861324
+e270493280.048025
+r1
+xCompileC
+xbuild/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/main.o
+x/Users/aa/Documents/HelloWorld/main.m
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/aa/Documents/HelloWorld/main.m270493279#270493280#0(0"0(0#0#37"/Users/aa/Documents/HelloWorld/main.m4301066776#1709"    cd /Users/aa/Documents/HelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -F/Users/aa/Documents/HelloWorld/build/Debug-iphoneos -I/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/include -I/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources/armv6 -I/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources -include /var/folders/BX/BXpaGbanG1ilpXPEy-wGRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld_Prefix-exjrjodeidabaxfktztsigplomvd/HelloWorld_Prefix.pch -c /Users/aa/Documents/HelloWorld/main.m -o /Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/main.o0#
+
+CCompileXIB /Users/aa/Documents/HelloWorld/HelloWorldViewController.xib
+s270493278.594478
+e270493278.910612
+r1
+xCompileXIB
+x/Users/aa/Documents/HelloWorld/HelloWorldViewController.xib
+o2009-07-28 18:01:18.854 Interface Builder Cocoa Touch Tool[2306:903] CFPreferences: user home directory at /Users/aa/Library/Application Support/iPhone Simulator/User is unavailable. User domains will be volatile.
+lSLF07#2@39"CompileXIB HelloWorldViewController.xib270493278#270493278#0(214"2009-07-28 18:01:18.854 Interface Builder Cocoa Touch Tool[2306:903] CFPreferences: user home directory at /Users/aa/Library/Application Support/iPhone Simulator/User is unavailable. User domains will be volatile.0(0#0#59"/Users/aa/Documents/HelloWorld/HelloWorldViewController.xib4301066776#424"    cd /Users/aa/Documents/HelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/HelloWorldViewController.nib /Users/aa/Documents/HelloWorld/HelloWorldViewController.xib0#
+
+CCompileXIB /Users/aa/Documents/HelloWorld/MainWindow.xib
+s270493278.593550
+e270493278.946958
+r1
+xCompileXIB
+x/Users/aa/Documents/HelloWorld/MainWindow.xib
+o2009-07-28 18:01:18.907 Interface Builder Cocoa Touch Tool[2307:903] CFPreferences: user home directory at /Users/aa/Library/Application Support/iPhone Simulator/User is unavailable. User domains will be volatile.
+lSLF07#2@25"CompileXIB MainWindow.xib270493278#270493278#0(214"2009-07-28 18:01:18.907 Interface Builder Cocoa Touch Tool[2307:903] CFPreferences: user home directory at /Users/aa/Library/Application Support/iPhone Simulator/User is unavailable. User domains will be volatile.0(0#0#45"/Users/aa/Documents/HelloWorld/MainWindow.xib4301066776#396"    cd /Users/aa/Documents/HelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/MainWindow.nib /Users/aa/Documents/HelloWorld/MainWindow.xib0#
+
+CCpResource build/Debug-iphoneos/HelloWorld.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+s270493278.513400
+e270493278.593450
+r1
+xCpResource
+xbuild/Debug-iphoneos/HelloWorld.app/ResourceRules.plist
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist
+lSLF07#2@94"Copy /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist270493278#270493278#0(0"0(0#0#89"/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist4740085280#467"    cd /Users/aa/Documents/HelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/ResourceRules.plist /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app0#
+
+CGenerateDSYMFile /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app.dSYM /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/HelloWorld
+s270645040.975249
+e270645041.064013
+r1
+xGenerateDSYMFile
+x/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app.dSYM
+x/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/HelloWorld
+lSLF07#2@104"GenerateDSYMFile build/Debug-iphoneos/HelloWorld.app.dSYM build/Debug-iphoneos/HelloWorld.app/HelloWorld270645040#270645041#0(0"0(0#0#77"/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/HelloWorld4301066776#347"    cd /Users/aa/Documents/HelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/HelloWorld -o /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app.dSYM0#
+
+CLd /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/HelloWorld normal armv6
+s270645040.839599
+e270645040.975126
+r1
+xLd
+x/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/HelloWorld
+xnormal
+xarmv6
+lSLF07#2@82"Link /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/HelloWorld270645040#270645040#0(0"0(0#0#0"4301066776#864"    cd /Users/aa/Documents/HelloWorld    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -L/Users/aa/Documents/HelloWorld/build/Debug-iphoneos -F/Users/aa/Documents/HelloWorld/build/Debug-iphoneos -filelist /Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/Objects-normal/armv6/HelloWorld.LinkFileList -mmacosx-version-min=10.5 -dead_strip -miphoneos-version-min=3.0 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/HelloWorld0#
+
+CProcessInfoPlistFile /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/Info.plist HelloWorld-Info.plist
+s270645040.713759
+e270645040.718657
+r1
+xProcessInfoPlistFile
+x/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/Info.plist
+xHelloWorld-Info.plist
+lSLF07#2@29"Process HelloWorld-Info.plist270645040#270645040#0(0"0(0#0#52"/Users/aa/Documents/HelloWorld/HelloWorld-Info.plist4301066776#542"    cd /Users/aa/Documents/HelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility HelloWorld-Info.plist -genpkginfo /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/ResourceRules.plist -o /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/Info.plist0#
+
+CProcessPCH /var/folders/BX/BXpaGbanG1ilpXPEy-wGRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld_Prefix-exjrjodeidabaxfktztsigplomvd/HelloWorld_Prefix.pch.gch HelloWorld_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+s270493278.947163
+e270493279.861152
+r1
+xProcessPCH
+x/var/folders/BX/BXpaGbanG1ilpXPEy-wGRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld_Prefix-exjrjodeidabaxfktztsigplomvd/HelloWorld_Prefix.pch.gch
+xHelloWorld_Prefix.pch
+xnormal
+xarmv6
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@32"Precompile HelloWorld_Prefix.pch270493278#270493279#0(0"0(0#0#52"/Users/aa/Documents/HelloWorld/HelloWorld_Prefix.pch4301066776#1612"    cd /Users/aa/Documents/HelloWorld    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=3.0 -iquote /Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-generated-files.hmap -I/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-own-target-headers.hmap -I/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-all-target-headers.hmap -iquote /Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld-project-headers.hmap -F/Users/aa/Documents/HelloWorld/build/Debug-iphoneos -I/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/include -I/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources/armv6 -I/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/DerivedSources -c /Users/aa/Documents/HelloWorld/HelloWorld_Prefix.pch -o /var/folders/BX/BXpaGbanG1ilpXPEy-wGRU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/HelloWorld_Prefix-exjrjodeidabaxfktztsigplomvd/HelloWorld_Prefix.pch.gch0#
+
+CProcessingProductPackaging "/Users/aa/Library/MobileDevice/Provisioning Profiles/F4977485-55DF-43C9-88E2-364C4D834EC0.mobileprovision" /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/embedded.mobileprovision
+s270493280.729222
+e270493280.731229
+r1
+xProcessingProductPackaging
+x/Users/aa/Library/MobileDevice/Provisioning Profiles/F4977485-55DF-43C9-88E2-364C4D834EC0.mobileprovision
+x/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/embedded.mobileprovision
+lSLF07#2@195"ProcessingProductPackaging "/Users/aa/Library/MobileDevice/Provisioning Profiles/F4977485-55DF-43C9-88E2-364C4D834EC0.mobileprovision" build/Debug-iphoneos/HelloWorld.app/embedded.mobileprovision270493280#270493280#0(0"0(0#0#91"/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/embedded.mobileprovision4301066776#407"    cd /Users/aa/Documents/HelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> "/Users/aa/Library/MobileDevice/Provisioning Profiles/F4977485-55DF-43C9-88E2-364C4D834EC0.mobileprovision" -o /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app/embedded.mobileprovision0#
+
+CProcessingProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist /Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent
+s270645041.069116
+e270645041.084753
+r1
+xProcessingProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist
+x/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent
+lSLF07#2@187"ProcessingProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent270645041#270645041#0(0"0(0#0#102"/Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent4301066776#425"    cd /Users/aa/Documents/HelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/Entitlements.plist -entitlements -format xml -o /Users/aa/Documents/HelloWorld/build/HelloWorld.build/Debug-iphoneos/HelloWorld.build/HelloWorld.xcent0#
+
+CTouch /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app
+s270645041.064293
+e270645041.069014
+r1
+xTouch
+x/Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app
+lSLF07#2@72"Touch /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app270645041#270645041#0(0"0(0#0#0"4301066776#251"    cd /Users/aa/Documents/HelloWorld    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/aa/Documents/HelloWorld/build/Debug-iphoneos/HelloWorld.app0#
+
