@@ -1,0 +1,56 @@
+THelloWorld
+v7
+r1
+cCheck dependencies
+
+N/Users/aa/Documents/HelloWorld/HelloWorldViewController.xib
+c000000004A718FBE0000000000004F24
+t1248956350
+s20260
+
+N/Users/aa/Documents/HelloWorld/MainWindow.xib
+c000000004A6F2C9D0000000000002436
+t1248799901
+s9270
+
+N/Users/aa/Documents/HelloWorld/build/Debug/HelloWorld.app
+t2
+s0
+
+N/Users/aa/Documents/HelloWorld/build/Debug/HelloWorld.app/Contents/Info.plist
+t2
+s0
+
+N/Users/aa/Documents/HelloWorld/build/Debug/HelloWorld.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/aa/Documents/HelloWorld/build/Debug/HelloWorld.app/Contents/Resources/HelloWorldViewController.nib
+t2
+s0
+
+N/Users/aa/Documents/HelloWorld/build/Debug/HelloWorld.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+NHelloWorld-Info.plist
+c000000004A702EB4000000000000038B
+t1248865972
+s907
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies271178332#271178332#0(73"[BEROR]error: There is no SDK with the name or path 'iphonesimulator3.0'1(4@65"error: There is no SDK with the name or path 'iphonesimulator3.0'271178332#18446744073709551615#0#0(1@0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileXIB /Users/aa/Documents/HelloWorld/HelloWorldViewController.xib
+r0
+
+CCompileXIB /Users/aa/Documents/HelloWorld/MainWindow.xib
+r0
+
+CProcessInfoPlistFile /Users/aa/Documents/HelloWorld/build/Debug/HelloWorld.app/Contents/Info.plist HelloWorld-Info.plist
+r0
+
+CTouch /Users/aa/Documents/HelloWorld/build/Debug/HelloWorld.app
+r0
+
