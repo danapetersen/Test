@@ -1,5 +1,13 @@
-I am a test
+I am a test!
 
 another test
 
+making more changes
+
+
+<<<<<<< HEAD
+another test
+
 master file changes
+=======
+>>>>>>> test1
