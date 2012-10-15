@@ -4,10 +4,5 @@ another test
 
 making more changes
 
-
-<<<<<<< HEAD
-another test
-
 master file changes
-=======
->>>>>>> test1
+
