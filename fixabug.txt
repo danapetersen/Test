@@ -1,3 +1,0 @@
-this fixes bug 7
-
-this fixes another bug
